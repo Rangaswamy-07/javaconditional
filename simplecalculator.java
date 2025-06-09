@@ -6,7 +6,7 @@ public class simpleclaculator
 	    Scanner sc = new Scanner(System.in);
 	   int a =sc.nextInt();
 	   int b =sc.nextInt();
-	   int n =sc.nextInt();    
+	   int n =sc.nextInt();
 	switch(n){
 	    case 1:System.out.println(a+b);
 	    break;
@@ -18,6 +18,7 @@ public class simpleclaculator
 	    break;
 	    case 5:System.out.println(a%b);
 	    break;
+	default:System.out.println("not available");
 	}
 	}
 }
